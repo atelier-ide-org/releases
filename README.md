@@ -1,6 +1,6 @@
 # Atelier IDE — Releases
 
-The downloads of [Atelier IDE](https://atelier-ide-org.github.io/app/), a fast, modern desktop IDE written in Rust. This repository holds no code, only its [releases](https://github.com/atelier-ide-org/releases/releases).
+The downloads of [Atelier IDE](https://atelier-ide-org.github.io/docs/), a fast, modern desktop IDE written in Rust. This repository holds no code, only its [releases](https://github.com/atelier-ide-org/releases/releases).
 
 ## Install
 
@@ -21,8 +21,8 @@ The launcher checks this repository at every start and updates the IDE by itself
 
 ## Native plugins
 
-A native plugin only loads in the IDE of **the same release**: take it from the release of the IDE you run. Extract the archive into `<project>/.atelier/plugins/gltf-viewer/`, then in Atelier open **Plugins**, click **Reload** and enable it. See [Plugins](https://atelier-ide-org.github.io/app/plugins/).
+A native plugin only loads in the IDE of **the same release**: take it from the release of the IDE you run. Extract the archive into `<project>/.atelier/plugins/gltf-viewer/`, then in Atelier open **Plugins**, click **Reload** and enable it. See [Plugins](https://atelier-ide-org.github.io/docs/plugins/).
 
 ---
 
-[Documentation](https://atelier-ide-org.github.io/app/) · [Documentation en français](https://atelier-ide-org.github.io/app/fr/)
+[Documentation](https://atelier-ide-org.github.io/docs/) · [Documentation en français](https://atelier-ide-org.github.io/docs/fr/)
