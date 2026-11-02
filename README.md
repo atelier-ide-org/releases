@@ -44,13 +44,13 @@ The launcher checks this repository at every start and updates the IDE by itself
 | Tag | Contents |
 | --- | --- |
 | `app/vX.Y.Z` | Atelier X.Y.Z: the installer `atelier-setup-windows-x86_64.exe`, the launchers `atelier-<os>-<arch>`, the archives `atelier-ide-<os>-<arch>` the launcher installs, and their `SHA256SUMS` |
-| `plugins/<name>/vX.Y.Z` | The native plugin `<name>` for Atelier X.Y.Z: `<name>-<os>-<arch>` (its manifest and its library) and `<name>-SHA256SUMS` |
+| `plugins/<name>/vX.Y.Z` | The native plugin `<name>` for Atelier X.Y.Z: `<name>.atelier-plugin`, the file to install (its manifest and the library of each system), and `<name>-SHA256SUMS` |
 
 The latest release of the repository is always the IDE's.
 
 ## Native plugins
 
-A native plugin loads only in the version of Atelier it was built for: take it from the release `plugins/<name>/vX.Y.Z` where X.Y.Z is the version of the IDE you run. Extract it into `<project>/.atelier/plugins/<name>/`, then in Atelier open **Plugins**, click **Reload** and enable it. See [Plugins](https://atelier-ide-org.github.io/docs/plugins/).
+A native plugin loads only in the version of Atelier it was built for: download `<name>.atelier-plugin` from the release `plugins/<name>/vX.Y.Z`, where X.Y.Z is the version of the IDE you run. Then in Atelier open **Plugins**, click **Install a plugin from a file** (the + button) and choose it: it is installed once, for every project. See [Plugins](https://atelier-ide-org.github.io/docs/plugins/).
 
 | Plugin | Name |
 | --- | --- |
